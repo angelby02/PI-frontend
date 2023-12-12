@@ -27,7 +27,7 @@ export class DashboardComponent {
     }
   }
 
-  wordList: string[] = ['angular', 'react', 'vue', 'javascript', 'typescript', 'html', 'css'];
+  wordList: string[] = ['deberes', 'notas', 'examenes', 'carreras', 'ingles', 'aula virtual', 'promedios'];
   typedText: string = '';
   filteredSuggestions: string[] = [];
   showSuggestions: boolean = false;

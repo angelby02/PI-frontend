@@ -180,7 +180,7 @@ padding-right: 30%;
   }
 
 .barra-inferior{
-    background-color: rgb(64, 60, 60);
+    background-color: rgb(0, 0, 0);
     height: auto;
 justify-content: center;
     display: flex;
@@ -241,4 +241,106 @@ padding-left: 0;
     display: grid;
     width: 100%;
   }
+}
+
+
+
+.option1 ul, .option li {
+	margin: 0;
+	padding: 0;
+}
+.option1 ul {
+	list-style: none;
+	width: 100%;
+}
+.option1 li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.option1 a {
+	display: block;
+    font-family: 'Comfortaa', sans-serif;	
+    padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    font-size: 13px;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.option1 li:hover a {
+  background-color: #2c424d;
+  color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+
+
+.option2 ul, .option li {
+	margin: 0;
+	padding: 0;
+}
+.option2 ul {
+	list-style: none;
+	width: 100%;
+}
+.option2 li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.option2 a {
+	display: block;
+    font-family: 'Comfortaa', sans-serif;	
+    padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    font-size: 13px;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.option2 li:hover a {
+  background-color: #65694b;
+  color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+
+
+.option3 ul, .option li {
+	margin: 0;
+	padding: 0;
+}
+.option3 ul {
+	list-style: none;
+	width: 100%;
+}
+.option3 li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.option3 a {
+	display: block;
+    font-family: 'Comfortaa', sans-serif;	
+    padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    font-size: 13px;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.option3 li:hover a {
+  background-color: #557261;
+  color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
