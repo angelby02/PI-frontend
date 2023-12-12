@@ -29,6 +29,42 @@
         <input type="password" id="form3Example4" class="form-control" formControlName="password" [class.is-invalid]="passwordNoValido"/>
         <label class="form-label" for="form3Example4">Password</label>
         </div>
+        <!--Boton-->
+    
+        <div class="checkbox-wrapper-60">
+          <input type="checkbox" class="check" id="check1-60"/>
+          <label for="check1-60" class="label">
+            <svg viewBox="0 0 65 65" height="30" width="30">
+              <rect x="7" y="7" width="50" height="50" stroke="black" fill="none" />
+              <g transform="translate(-23,-967.36216)" id="layer1-60">
+                <path id="path4146" d="m 55,978 c -73,19 46,71 15,2 C 60,959 13,966 30,1007 c 12,30 61,13 46,-23" fill="none" stroke="black" stroke-width="3" class="path1" />
+              </g>
+            </svg>
+          </label>
+            <label for="btn-modal" class="boton-modal">
+            <span style="font-size: 13px;">Terminos y condiciones</span>
+            </label>
+        </div>
+        
+<!--Fin de Boton-->
+<!--Ventana Modal-->
+  <input type="checkbox" id="btn-modal">
+  <div class="container-modal">
+      <div class="content-modal">
+          <h2>Terminos y condiciones</h2>
+          <p>"Al registrarte en nuestra plataforma, aceptas cumplir con nuestros términos y condiciones.
+             Debes proporcionar información veraz y actualizada durante el proceso de registro.
+              Tu cuenta es personal e intransferible, y eres responsable de mantener la confidencialidad de tu contraseña. 
+              Solo el administrador tiene derecho de suspender o cancelar cuentas. 
+              Al acceder a nuestros servicios, aceptas recibir comunicaciones y actualizaciones periódicas por parte de la plataforma."</p>
+          <div class="btn-cerrar">
+              <label for="btn-modal">Cerrar</label>
+          </div>
+      </div>
+      <label for="btn-modal" class="cerrar-modal"></label>
+  </div>
+<!--Fin de Ventana Modal-->
+        <br>
         <button type="submit" [disabled]="registerForm.invalid" class="btn btn-dark" onclick="location.href='../login'">Registrarse</button>
       </form>
     </div>
