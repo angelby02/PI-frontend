@@ -27,7 +27,7 @@ export class DashboardComponent {
     }
   }
 
-  wordList: string[] = ['deberes', 'notas', 'examenes', 'carreras', 'ingles', 'aula virtual', 'promedios'];
+  wordList: string[] = ['deberes', 'notas', 'examenes', 'carreras', 'ingles', 'aula virtual', 'promedios', 'ingresar al aula virtual', 'ingresar a EVA', 'ingresar a SIGA'];
   typedText: string = '';
   filteredSuggestions: string[] = [];
   showSuggestions: boolean = false;

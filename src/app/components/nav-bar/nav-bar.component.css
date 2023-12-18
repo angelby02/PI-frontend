@@ -1,0 +1,88 @@
+.navbar{
+	background-color: #B0A695;
+}
+
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	color: #020202;
+	display: block;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    font-size: 13px;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #695138;
+    color: white;
+    border-radius: 15px;
+}
+
+.botones{
+    padding-right: 3%;
+}
+
+.options ul, .options li {
+	margin: 0;
+	padding: 0;
+}
+.options ul {
+	list-style: none;
+	width: 100%;
+}
+.options li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.options a {
+	display: block;
+    font-family: 'Comfortaa', sans-serif;	
+    padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    font-size: 13px;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.options li:hover a {
+	background: #695138;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.btn1{
+    color: rgb(0, 0, 0);
+    margin-right: 7px;
+}
+.btn2{
+    background-color: rgb(43, 39, 39);
+    color: white;
+}
+
+@media  (max-width : 900px) {
+	.navbar{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);	
+}
+	}

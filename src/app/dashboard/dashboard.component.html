@@ -35,11 +35,8 @@
                 <h1>Explora</h1>
                   <select (change)="onOptionSelected($event)" >
                     <option value="opcion1" disabled selected>Todas las Plataformas</option>
-                    <option value="opcion2">Plataforma</option>
-                    <option value="opcion2">Plataforma</option>
-                    <option value="opcion2">Plataforma</option>
-                    <option value="opcion2">Plataforma</option>
-
+                    <option value="opcion2">EVA</option>
+                    <option value="opcion2">SIGA</option>
                   </select>
                   <div class="sugerencia">
                     <input type="text" placeholder="Escribe aquí..." [(ngModel)]="typedText" (input)="onInputChange()">
@@ -55,13 +52,15 @@
               <div class="grid">
                   <div class="grid-item" style="background-color: rgb(255, 233, 220);">
                     <img src="../../assets/img/logo1.png">
-                    <a routerLink="/panel/a" routerLinkActive="active-link">
-                      <h1 class="a">EVA</h1>            
-                    </a>
+                        <a routerLink="/panel/p-eva" routerLinkActive="active-link">
+                        <h1 class="a">EVA</h1>     
+                        </a>  
                   </div>
                   <div class="grid-item" style="  background-color: rgb(196, 245, 254);">
                     <img src="../../assets/img/logo2.png">
-                    <h1 class="b">SIGA</h1>            
+                    <a routerLink="/panel/p-siga" routerLinkActive="active-link">
+                    <h1 class="b">SIGA</h1>     
+                    </a>       
                   </div>
                   <div class="grid-item" style="background-color: rgb(240, 177, 141);">
                     <img src="../../assets/img/logo1.png">
